@@ -1,0 +1,134 @@
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: azure;
+}
+
+.header
+{
+    width:1000px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #3a3a3a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(55, 211, 12, 0.878);
+    text-align: center; 
+}
+
+.header h1{ 
+    padding-bottom: 0;
+    font-size: 60px; 
+    margin-bottom: 0px;
+    color:rgba(55, 211, 12, 0.878);
+    font-weight: 200; 
+}
+.header p
+{
+    font-size: 18px;
+    margin-top: 0px; 
+    padding:0px 14px 14px 14px;
+}
+.navbar
+{
+    width: 1000px;
+    background-color:#3fa43a;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 20px;
+}
+.navbar ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;   
+}
+.navbar ul li
+{ 
+    
+    float: left;
+    margin-left: 40px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar ul li a:hover
+{
+    background-color:#0a4f1c;
+}
+
+.master
+{
+    width: 1000px; 
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.master img
+{
+    width: 1000px;
+} 
+.left-div
+{
+    width: 350px;
+    padding: 10px;
+    margin-left: 5px; 
+    float: left;
+}
+hr
+{   
+    color: black;
+    margin-right: 20px;
+}
+.left-first,.left-second,.left-third,.left-forth
+{
+    width:300px; 
+    padding: 30px;
+    padding-top: 0px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.left-first,.right-div p
+{
+    padding-left: 20px;
+    font-weight: 700;
+}
+.left-div h1
+{
+    color:rgba(83, 254, 36, 0.959);
+}
+.right-div
+{ 
+    width: 600px;
+    margin-right: 4px;
+    float: right;
+}
+.right-first,.right-second,.right-third
+{ 
+    width: 580px; 
+    padding: 10px;
+}
+.right-div h1
+{    color:rgba(83, 254, 36, 0.959);
+}
+.footer
+{
+    width: 1000px;
+    background-color: #3a3a3a;
+    margin: 0 auto;
+    height: 80px; 
+}
+.footer h2
+{
+    color: #fff;
+    text-align: center;
+}
